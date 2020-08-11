@@ -1,0 +1,10 @@
+version: "2.3"
+
+services:
+  facemask:
+    build: "."
+    container_name: "facemask"
+    volumes: 
+      - ".:/home/coder/facemask"
+      - "~/.ssh:/home/coder/.ssh"
+  
