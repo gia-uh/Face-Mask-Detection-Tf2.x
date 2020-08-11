@@ -124,4 +124,4 @@ model.fit(train_dataset,
           callbacks=callbacks)
 
 # %%
-model.save('mask_classification_model.h5')
+model.save('../data/mask_classification_model.h5')
